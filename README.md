@@ -16,7 +16,7 @@ The Phase-1 implementation focuses on **Whitefield, Bengaluru**, while the syste
 
 ---
 
-## Phase-1 Scope (Locked)
+## Phase-1
 - **Geography:** Whitefield (Bengaluru)
 - **Granularity:** BBMP ward-level zones
 - **Domain:** Clean food & grocery access
