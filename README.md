@@ -16,14 +16,6 @@ The Phase-1 implementation focuses on **Whitefield, Bengaluru**, while the syste
 
 ---
 
-## Phase-1
-- **Geography:** Whitefield (Bengaluru)
-- **Granularity:** BBMP ward-level zones
-- **Domain:** Clean food & grocery access
-- **Output:** Geospatial analytics dashboard
-
----
-
 ## Key Metrics (KPIs)
 - Nearest clean food store distance (km)
 - Store density per 10,000 population
@@ -36,8 +28,9 @@ Accessibility Score =
 0.4 × normalized_price +
 0.2 × store_density
 
-
-Weights are configurable and not hardcoded.
+## Interactive Dashboard
+🔗 Tableau Public:
+https://public.tableau.com/shared/ZPW2R89Z8?:display_count=n&:origin=viz_share_link
 
 ---
 
@@ -114,19 +107,11 @@ clean-food-geo-intelligence/
 
 ---
 
-## Scalability
-The system is designed to scale across:
-- Additional wards, cities, or states
-- Different retail domains (healthcare, EV charging, logistics)
-- New KPIs via configuration changes
-
-Scaling requires **adding data**, not rewriting logic.
-
----
-
-## Status
-🚧 Phase-1 (Whitefield) — In Progress  
-Next Phase: Multi-area support via configuration expansion
+## Scalability & Future Scope
+- Extend analysis to multiple Bengaluru zones
+- Introduce scenario-based weighting (price-sensitive vs distance-sensitive)
+- Integrate real transactional pricing data
+- Expose results via API for downstream applications
 
 ---
 
