@@ -68,9 +68,10 @@ All datasets are **non-proprietary** and used for **directional analysis**, not 
 - Google Colab (execution)
 - GitHub (version control)
 
----
+
 
 ## Project Structure
+```text
 clean-food-geo-intelligence/
 │
 ├── data/
@@ -95,9 +96,7 @@ clean-food-geo-intelligence/
 ├── notebooks/
 │
 └── README.md
-
-
----
+```
 
 ## Design Principles
 - **Configuration-driven logic** (no hardcoded geography)
